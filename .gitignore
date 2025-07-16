@@ -1,0 +1,76 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.*
+
+# Virtualenv
+venv/
+ENV/
+env/
+.venv/
+
+# Docker
+*.log
+*.pid
+docker-compose.override.yml
+docker-compose.*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# AWS credentials (just in case)
+.aws/
+
+# Requirements lock
+Pipfile.lock
+poetry.lock
+
+# Compiled C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Logs and local state
+*.log
+*.sqlite3
+
+# VS Code
+.vscode/
+.code-workspace
+
+# Test results
+coverage.xml
+*.cover
+*.py,cover
+
+# Others
+*.bak
+*.tmp
+
